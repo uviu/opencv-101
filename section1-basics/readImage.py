@@ -2,7 +2,7 @@ import cv2 as cv
 import os
 
 # Get the absolute path to the image
-image_path = 'resources/Photos/cat_large.jpg'
+image_path = '../resources/Photos/cat_large.jpg'
 
 # Check if file exists
 if not os.path.exists(image_path):

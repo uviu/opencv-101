@@ -2,19 +2,19 @@ import cv2 as cv
 import os
 
 # Get the absolute path to the image
-image_path = 'resources/Videos/dog.mp4'
+video_path = '../resources/Videos/dog.mp4'
 
 # Check if file exists
-if not os.path.exists(image_path):
-    print(f"Error: Video file not found at '{image_path}'")
+if not os.path.exists(video_path):
+    print(f"Error: Video file not found at '{video_path}'")
     exit(1)
 
 # Read the image
-capture = cv.VideoCapture(image_path)
+capture = cv.VideoCapture(video_path)
 
 # Check if image was successfully loaded
 if capture is None:
-    print(f"Error: Could not load video from '{image_path}'")
+    print(f"Error: Could not load video from '{video_path}'")
     exit(1)
 
 while True:
