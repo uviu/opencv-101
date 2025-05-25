@@ -9,7 +9,7 @@ labels = np.load('labels.npy')
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
-img = cv.imread(r'../resources/Faces/train/Madonna/5.jpg')
+img = cv.imread(r'../resources/Faces/train/Madonna/2.jpg')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 faces_rect = haar_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=7)

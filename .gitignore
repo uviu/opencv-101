@@ -1,0 +1,4 @@
+resources/Faces/train/Peggy Schneider/
+*.npy 
+*.yml
+__pycache__/
