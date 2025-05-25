@@ -1,0 +1,6 @@
+#remember to ignore personal training data
+../resources/Faces/train/Peggy Schneider/
+*.idea
+*.npy 
+*.yml
+__pycache__/
